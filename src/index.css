@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+th {
+  width: 120px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+td {
+  padding: 5px;
+}
+
+.time {
+  height: 40px;
+}
+
+.Event {
+  width: 100px;
+  border-radius: 6px;
+  padding: 4px;
+  font-size: 12px;        
+  word-wrap: break-word;  
+  overflow-wrap: break-word;
+  white-space: normal;    
+}
+
+.Event h6, h5 {
+  margin: 2px 0;
+  font-size: 12px;
+}
+
+.pink {
+  background: rgb(184, 62, 82);
+}
+
+.blue {
+  background: rgb(11, 25, 118);
+}
+
+.purple {
+  background: rgb(65, 39, 160);
+}
